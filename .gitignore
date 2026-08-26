@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS / OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Generated model and large prediction artifacts
+results/*.pkl
+results/solar_prediction_results.csv
+
+# Local/generated datasets
+data/*.csv
+
+# Logs
+*.log
+
+# Secrets
+.env
+*.key
